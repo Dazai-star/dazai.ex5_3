@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            background-color:#2593a2;
+            height:50px;
+            padding: 30px;
+            width: 500px;
+            margin: 10% auto;
+        }
+        input
+        {
+            flex-grow: 1;
+            text-indent: 20px;
+            font-weight: bold;
+            font-size: larger;
+            color: gray;
+            border: none;
+        }
+        button{
+            border: none;
+            width:25%;
+            background-color: #92eea2;
+            font-size: larger;
+            color: black;
+            transition: 0.4s;
+        }
+        ::-webkit-input-placeholder{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button:hover{
+            background-color: #286d34;
+            color:white;
+        }
+        img{
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <input type="email" name="email" placeholder="Enter your email">
+        <button type="submit" value="Subcribe!">Subcribe!</button>
+    </form>
+
+    <form action="" method="POST">
+        <input type="email" name="email" placeholder="Enter your email">
+        <button type="submit" value="Subcribe!"><img src="images/pngguru.com.png" alt=""></button>
+    </form>
+</body>
+</html>
